@@ -4,7 +4,7 @@
 #group="wildduck"
 
 # process title and syslog ident
-ident="wildduck"
+ident="wildduck2"
 
 # how many processes to start
 processes=1
@@ -43,7 +43,7 @@ bugsnagCode=""
     level="silly"
     # log to syslog if true
     # not needed if you run the app as systemd service
-    syslog=false
+    syslog=true
 
     # delete authentication log entries after 30 days
     # changing this value only affects new entries
@@ -72,6 +72,6 @@ bugsnagCode=""
 
 [smtp.setup]
 # Public configuration for SMTP MDA, needed for mobileconfig files
-hostname="localhost"
+hostname="10.100.1.33"
 secure=false
 port=2587

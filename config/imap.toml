@@ -2,7 +2,7 @@
 enabled=true
 port=9993
 # by default bind to localhost only
-host="127.0.0.1"
+host="10.100.1.33"
 
 # Use `true` for port 993 and `false` for 143. If connection is not secured
 # on connection then Wild Duck enables STARTTLS extension

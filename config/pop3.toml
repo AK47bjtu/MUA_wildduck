@@ -2,7 +2,7 @@
 enabled=true
 port=9995
 # by default bind to localhost only
-host="127.0.0.1"
+host="10.100.1.33"
 
 # Use `true` for port 995 and `false` for 110. Try to always use `true` as the included
 # POP3 server is limited and does not support the STLS command
